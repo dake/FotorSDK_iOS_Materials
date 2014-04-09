@@ -115,7 +115,7 @@ $(document).ready(function(){initNavTree('de/ddd/interface_e_i_photo_s_d_k_conte
 </div><!--header-->
 <div class="contents">
 
-<p><code>#import &lt;<a class="el" href="../../d7/deb/_e_i_photo_s_d_k_context_8h_source.html">EIPhotoSDKContext.h</a>&gt;</code></p>
+<p><code>#import &quot;<a class="el" href="../../d7/deb/_e_i_photo_s_d_k_context_8h_source.html">EIPhotoSDKContext.h</a>&quot;</code></p>
 <div class="dynheader">
 Inheritance diagram for EIPhotoSDKContext:</div>
 <div class="dyncontent">
@@ -135,7 +135,7 @@ Instance Methods</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Class Methods</h2></td></tr>
 <tr class="memitem:a3f40fd02a913d90f0aa52234dc31d359"><td class="memItemLeft" align="right" valign="top">(size_t)&#160;</td><td class="memItemRight" valign="bottom">+ <a class="el" href="../../de/ddd/interface_e_i_photo_s_d_k_context.html#a3f40fd02a913d90f0aa52234dc31d359">supportedOutputImagePixelSize</a></td></tr>
-<tr class="memdesc:a3f40fd02a913d90f0aa52234dc31d359"><td class="mdescLeft">&#160;</td><td class="mdescRight">The maximum pixel size, output image can be render.  <a href="#a3f40fd02a913d90f0aa52234dc31d359">More...</a><br/></td></tr>
+<tr class="memdesc:a3f40fd02a913d90f0aa52234dc31d359"><td class="mdescLeft">&#160;</td><td class="mdescRight">The maximum pixel size, output image can be rendered on context.  <a href="#a3f40fd02a913d90f0aa52234dc31d359">More...</a><br/></td></tr>
 <tr class="separator:a3f40fd02a913d90f0aa52234dc31d359"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="properties"></a>
@@ -200,6 +200,7 @@ Properties</h2></td></tr>
 <p>Note: This method may be called once per context, as it would not make sense to run the same actions on the same image twice. Check hasBegunRendering to see if render has been called.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
+    <tr><td class="paramname">beginBlock</td><td>The block to be called when the image is going to render. </td></tr>
     <tr><td class="paramname">completion</td><td>The block to be called when the image's render is complete. the <code>completed</code> parameter in this block indicated whether render operation was completed.</td></tr>
   </table>
   </dd>
@@ -221,7 +222,7 @@ Properties</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>The maximum pixel size, output image can be render. </p>
+<p>The maximum pixel size, output image can be rendered on context. </p>
 <dl class="section return"><dt>Returns</dt><dd>The maximum size (measured in pixels) </dd></dl>
 
 </div>
@@ -268,7 +269,7 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <p>Specifies whether rendering has begun on the context.</p>
-<p>If YES, any render: call will have no effect. </p>
+<p>If YES, any <code>renderWithBegin:complete:</code> call will have no effect. </p>
 
 <p>Definition at line <a class="el" href="../../d7/deb/_e_i_photo_s_d_k_context_8h_source.html#l00056">56</a> of file <a class="el" href="../../d7/deb/_e_i_photo_s_d_k_context_8h_source.html">EIPhotoSDKContext.h</a>.</p>
 
@@ -352,7 +353,7 @@ Properties</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../de/ddd/interface_e_i_photo_s_d_k_context.html">EIPhotoSDKContext</a></li>
-    <li class="footer">Generated on Wed Apr 9 2014 10:38:05 for FotorSDK by
+    <li class="footer">Generated on Wed Apr 9 2014 16:09:30 for FotorSDK by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>
