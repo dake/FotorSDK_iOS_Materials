@@ -31,7 +31,7 @@
   <td id="projectlogo"><img alt="Logo" src="../../icon-80.png"/></td>
   <td style="padding-left: 0.5em;">
    <div id="projectname">FotorSDK
-   &#160;<span id="projectnumber">beta</span>
+   &#160;<span id="projectnumber">v1.0.0</span>
    </div>
    <div id="projectbrief">Objective-C API for iOS</div>
   </td>
@@ -118,10 +118,14 @@ $(document).ready(function(){initNavTree('d6/d43/_e_i_photo_s_d_k_8h.html','../.
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
 Enumerations</h2></td></tr>
-<tr class="memitem:a2d1f675e7cf9db9e170c65c38dd4c811"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d43/_e_i_photo_s_d_k_8h.html#a2d1f675e7cf9db9e170c65c38dd4c811">EIPhotoSDKStatus</a> { <a class="el" href="../../d6/d43/_e_i_photo_s_d_k_8h.html#a2d1f675e7cf9db9e170c65c38dd4c811a01d4d456239d3f4fa4b1c1774076dbfc">kEIStatusOK</a> = 0, 
+<tr class="memitem:a2d1f675e7cf9db9e170c65c38dd4c811"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d43/_e_i_photo_s_d_k_8h.html#a2d1f675e7cf9db9e170c65c38dd4c811">EIPhotoSDKStatus</a> { <br/>
+&#160;&#160;<a class="el" href="../../d6/d43/_e_i_photo_s_d_k_8h.html#a2d1f675e7cf9db9e170c65c38dd4c811a01d4d456239d3f4fa4b1c1774076dbfc">kEIStatusOK</a> = 0, 
 <a class="el" href="../../d6/d43/_e_i_photo_s_d_k_8h.html#a2d1f675e7cf9db9e170c65c38dd4c811a71397af6349b540a3857a3ca887db61d">kEIStatusEditorConflict</a>, 
 <a class="el" href="../../d6/d43/_e_i_photo_s_d_k_8h.html#a2d1f675e7cf9db9e170c65c38dd4c811a16d64f53d674b910c2783a6881552cda">kEIStatusContextBusy</a>, 
-<a class="el" href="../../d6/d43/_e_i_photo_s_d_k_8h.html#a2d1f675e7cf9db9e170c65c38dd4c811a6923cc4657f848d2c5f810d55e56728f">kEIStatusInvalidImage</a>
+<a class="el" href="../../d6/d43/_e_i_photo_s_d_k_8h.html#a2d1f675e7cf9db9e170c65c38dd4c811a6923cc4657f848d2c5f810d55e56728f">kEIStatusInvalidImage</a>, 
+<br/>
+&#160;&#160;<a class="el" href="../../d6/d43/_e_i_photo_s_d_k_8h.html#a2d1f675e7cf9db9e170c65c38dd4c811ad145efadd4053995d05b5909071ad571">kEIStatusHugeImage</a>
+<br/>
  }</td></tr>
 <tr class="separator:a2d1f675e7cf9db9e170c65c38dd4c811"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
@@ -144,6 +148,8 @@ Enumerations</h2></td></tr>
 </td></tr>
 <tr><td class="fieldname"><em><a class="anchor" id="a2d1f675e7cf9db9e170c65c38dd4c811a6923cc4657f848d2c5f810d55e56728f"></a>kEIStatusInvalidImage</em>&#160;</td><td class="fielddoc">
 </td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="a2d1f675e7cf9db9e170c65c38dd4c811ad145efadd4053995d05b5909071ad571"></a>kEIStatusHugeImage</em>&#160;</td><td class="fielddoc">
+</td></tr>
 </table>
 
 <p>Definition at line <a class="el" href="../../d6/d43/_e_i_photo_s_d_k_8h_source.html#l00015">15</a> of file <a class="el" href="../../d6/d43/_e_i_photo_s_d_k_8h_source.html">EIPhotoSDK.h</a>.</p>
@@ -152,11 +158,13 @@ Enumerations</h2></td></tr>
 <div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;    <a class="code" href="../../d6/d43/_e_i_photo_s_d_k_8h.html#a2d1f675e7cf9db9e170c65c38dd4c811a71397af6349b540a3857a3ca887db61d">kEIStatusEditorConflict</a>,</div>
 <div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;    <a class="code" href="../../d6/d43/_e_i_photo_s_d_k_8h.html#a2d1f675e7cf9db9e170c65c38dd4c811a16d64f53d674b910c2783a6881552cda">kEIStatusContextBusy</a>,</div>
 <div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;    <a class="code" href="../../d6/d43/_e_i_photo_s_d_k_8h.html#a2d1f675e7cf9db9e170c65c38dd4c811a6923cc4657f848d2c5f810d55e56728f">kEIStatusInvalidImage</a>,</div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;    </div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;} <a class="code" href="../../d6/d43/_e_i_photo_s_d_k_8h.html#a2d1f675e7cf9db9e170c65c38dd4c811">EIPhotoSDKStatus</a>;</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;    <a class="code" href="../../d6/d43/_e_i_photo_s_d_k_8h.html#a2d1f675e7cf9db9e170c65c38dd4c811ad145efadd4053995d05b5909071ad571">kEIStatusHugeImage</a>,</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;    </div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;} <a class="code" href="../../d6/d43/_e_i_photo_s_d_k_8h.html#a2d1f675e7cf9db9e170c65c38dd4c811">EIPhotoSDKStatus</a>;</div>
 <div class="ttc" id="_e_i_photo_s_d_k_8h_html_a2d1f675e7cf9db9e170c65c38dd4c811a71397af6349b540a3857a3ca887db61d"><div class="ttname"><a href="../../d6/d43/_e_i_photo_s_d_k_8h.html#a2d1f675e7cf9db9e170c65c38dd4c811a71397af6349b540a3857a3ca887db61d">kEIStatusEditorConflict</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d43/_e_i_photo_s_d_k_8h_source.html#l00017">EIPhotoSDK.h:17</a></div></div>
 <div class="ttc" id="_e_i_photo_s_d_k_8h_html_a2d1f675e7cf9db9e170c65c38dd4c811a16d64f53d674b910c2783a6881552cda"><div class="ttname"><a href="../../d6/d43/_e_i_photo_s_d_k_8h.html#a2d1f675e7cf9db9e170c65c38dd4c811a16d64f53d674b910c2783a6881552cda">kEIStatusContextBusy</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d43/_e_i_photo_s_d_k_8h_source.html#l00018">EIPhotoSDK.h:18</a></div></div>
 <div class="ttc" id="_e_i_photo_s_d_k_8h_html_a2d1f675e7cf9db9e170c65c38dd4c811"><div class="ttname"><a href="../../d6/d43/_e_i_photo_s_d_k_8h.html#a2d1f675e7cf9db9e170c65c38dd4c811">EIPhotoSDKStatus</a></div><div class="ttdeci">EIPhotoSDKStatus</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d43/_e_i_photo_s_d_k_8h_source.html#l00015">EIPhotoSDK.h:15</a></div></div>
+<div class="ttc" id="_e_i_photo_s_d_k_8h_html_a2d1f675e7cf9db9e170c65c38dd4c811ad145efadd4053995d05b5909071ad571"><div class="ttname"><a href="../../d6/d43/_e_i_photo_s_d_k_8h.html#a2d1f675e7cf9db9e170c65c38dd4c811ad145efadd4053995d05b5909071ad571">kEIStatusHugeImage</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d43/_e_i_photo_s_d_k_8h_source.html#l00020">EIPhotoSDK.h:20</a></div></div>
 <div class="ttc" id="_e_i_photo_s_d_k_8h_html_a2d1f675e7cf9db9e170c65c38dd4c811a01d4d456239d3f4fa4b1c1774076dbfc"><div class="ttname"><a href="../../d6/d43/_e_i_photo_s_d_k_8h.html#a2d1f675e7cf9db9e170c65c38dd4c811a01d4d456239d3f4fa4b1c1774076dbfc">kEIStatusOK</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d43/_e_i_photo_s_d_k_8h_source.html#l00016">EIPhotoSDK.h:16</a></div></div>
 <div class="ttc" id="_e_i_photo_s_d_k_8h_html_a2d1f675e7cf9db9e170c65c38dd4c811a6923cc4657f848d2c5f810d55e56728f"><div class="ttname"><a href="../../d6/d43/_e_i_photo_s_d_k_8h.html#a2d1f675e7cf9db9e170c65c38dd4c811a6923cc4657f848d2c5f810d55e56728f">kEIStatusInvalidImage</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d43/_e_i_photo_s_d_k_8h_source.html#l00019">EIPhotoSDK.h:19</a></div></div>
 </div><!-- fragment -->
@@ -168,7 +176,7 @@ Enumerations</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_692516b589a32b3bfce781ca9f6d1534.html">Headers</a></li><li class="navelem"><a class="el" href="../../d6/d43/_e_i_photo_s_d_k_8h.html">EIPhotoSDK.h</a></li>
-    <li class="footer">Generated on Wed Apr 9 2014 16:09:30 for FotorSDK by
+    <li class="footer">Generated on Wed May 28 2014 16:33:22 for FotorSDK by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

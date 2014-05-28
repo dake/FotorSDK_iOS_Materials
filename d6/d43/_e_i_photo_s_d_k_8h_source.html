@@ -31,7 +31,7 @@
   <td id="projectlogo"><img alt="Logo" src="../../icon-80.png"/></td>
   <td style="padding-left: 0.5em;">
    <div id="projectname">FotorSDK
-   &#160;<span id="projectnumber">beta</span>
+   &#160;<span id="projectnumber">v1.0.0</span>
    </div>
    <div id="projectbrief">Objective-C API for iOS</div>
   </td>
@@ -126,25 +126,31 @@ $(document).ready(function(){initNavTree('d6/d43/_e_i_photo_s_d_k_8h_source.html
 <div class="line"><a name="l00017"></a><span class="lineno"><a class="line" href="../../d6/d43/_e_i_photo_s_d_k_8h.html#a2d1f675e7cf9db9e170c65c38dd4c811a71397af6349b540a3857a3ca887db61d">   17</a></span>&#160;    <a class="code" href="../../d6/d43/_e_i_photo_s_d_k_8h.html#a2d1f675e7cf9db9e170c65c38dd4c811a71397af6349b540a3857a3ca887db61d">kEIStatusEditorConflict</a>,</div>
 <div class="line"><a name="l00018"></a><span class="lineno"><a class="line" href="../../d6/d43/_e_i_photo_s_d_k_8h.html#a2d1f675e7cf9db9e170c65c38dd4c811a16d64f53d674b910c2783a6881552cda">   18</a></span>&#160;    <a class="code" href="../../d6/d43/_e_i_photo_s_d_k_8h.html#a2d1f675e7cf9db9e170c65c38dd4c811a16d64f53d674b910c2783a6881552cda">kEIStatusContextBusy</a>,</div>
 <div class="line"><a name="l00019"></a><span class="lineno"><a class="line" href="../../d6/d43/_e_i_photo_s_d_k_8h.html#a2d1f675e7cf9db9e170c65c38dd4c811a6923cc4657f848d2c5f810d55e56728f">   19</a></span>&#160;    <a class="code" href="../../d6/d43/_e_i_photo_s_d_k_8h.html#a2d1f675e7cf9db9e170c65c38dd4c811a6923cc4657f848d2c5f810d55e56728f">kEIStatusInvalidImage</a>,</div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;    </div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;} <a class="code" href="../../d6/d43/_e_i_photo_s_d_k_8h.html#a2d1f675e7cf9db9e170c65c38dd4c811">EIPhotoSDKStatus</a>;</div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;</div>
+<div class="line"><a name="l00020"></a><span class="lineno"><a class="line" href="../../d6/d43/_e_i_photo_s_d_k_8h.html#a2d1f675e7cf9db9e170c65c38dd4c811ad145efadd4053995d05b5909071ad571">   20</a></span>&#160;    <a class="code" href="../../d6/d43/_e_i_photo_s_d_k_8h.html#a2d1f675e7cf9db9e170c65c38dd4c811ad145efadd4053995d05b5909071ad571">kEIStatusHugeImage</a>,</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;    </div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;} <a class="code" href="../../d6/d43/_e_i_photo_s_d_k_8h.html#a2d1f675e7cf9db9e170c65c38dd4c811">EIPhotoSDKStatus</a>;</div>
 <div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;</div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<span class="keyword">@interface </span>EIPhotoSDK : NSObject</div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;<span class="keyword">@interface </span>EIPhotoSDK : NSObject</div>
 <div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;</div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;+ (<a class="code" href="../../dc/d04/interface_e_i_photo_s_d_k_editor_controller.html">EIPhotoSDKEditorController</a> *)photoEditorControllerWithImage:(UIImage *)image error:(NSError **)outError;</div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;+ (<a class="code" href="../../dc/d04/interface_e_i_photo_s_d_k_editor_controller.html">EIPhotoSDKEditorController</a> *)photoEditorControllerWithImage:(UIImage *)image error:(NSError **)outError;</div>
 <div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;</div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;+ (NSString *)versionString;</div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;+ (NSString *)versionString;</div>
 <div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;</div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;<span class="keyword">@end</span></div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;+ (void)setApiKey:(NSString *)apiKey;</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;+ (void)enableInAppPurchase:(BOOL)enable;</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;<span class="keyword">@end</span></div>
 <div class="ttc" id="_e_i_photo_s_d_k_session_8h_html"><div class="ttname"><a href="../../d6/d81/_e_i_photo_s_d_k_session_8h.html">EIPhotoSDKSession.h</a></div></div>
 <div class="ttc" id="_e_i_photo_s_d_k_8h_html_a2d1f675e7cf9db9e170c65c38dd4c811a71397af6349b540a3857a3ca887db61d"><div class="ttname"><a href="../../d6/d43/_e_i_photo_s_d_k_8h.html#a2d1f675e7cf9db9e170c65c38dd4c811a71397af6349b540a3857a3ca887db61d">kEIStatusEditorConflict</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d43/_e_i_photo_s_d_k_8h_source.html#l00017">EIPhotoSDK.h:17</a></div></div>
 <div class="ttc" id="_e_i_photo_editor_customization_8h_html"><div class="ttname"><a href="../../d0/d30/_e_i_photo_editor_customization_8h.html">EIPhotoEditorCustomization.h</a></div></div>
 <div class="ttc" id="_e_i_photo_s_d_k_8h_html_a2d1f675e7cf9db9e170c65c38dd4c811a16d64f53d674b910c2783a6881552cda"><div class="ttname"><a href="../../d6/d43/_e_i_photo_s_d_k_8h.html#a2d1f675e7cf9db9e170c65c38dd4c811a16d64f53d674b910c2783a6881552cda">kEIStatusContextBusy</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d43/_e_i_photo_s_d_k_8h_source.html#l00018">EIPhotoSDK.h:18</a></div></div>
 <div class="ttc" id="_e_i_photo_s_d_k_8h_html_a2d1f675e7cf9db9e170c65c38dd4c811"><div class="ttname"><a href="../../d6/d43/_e_i_photo_s_d_k_8h.html#a2d1f675e7cf9db9e170c65c38dd4c811">EIPhotoSDKStatus</a></div><div class="ttdeci">EIPhotoSDKStatus</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d43/_e_i_photo_s_d_k_8h_source.html#l00015">EIPhotoSDK.h:15</a></div></div>
+<div class="ttc" id="_e_i_photo_s_d_k_8h_html_a2d1f675e7cf9db9e170c65c38dd4c811ad145efadd4053995d05b5909071ad571"><div class="ttname"><a href="../../d6/d43/_e_i_photo_s_d_k_8h.html#a2d1f675e7cf9db9e170c65c38dd4c811ad145efadd4053995d05b5909071ad571">kEIStatusHugeImage</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d43/_e_i_photo_s_d_k_8h_source.html#l00020">EIPhotoSDK.h:20</a></div></div>
 <div class="ttc" id="_e_i_photo_s_d_k_editor_controller_8h_html"><div class="ttname"><a href="../../d0/d4c/_e_i_photo_s_d_k_editor_controller_8h.html">EIPhotoSDKEditorController.h</a></div></div>
 <div class="ttc" id="interface_e_i_photo_s_d_k_editor_controller_html"><div class="ttname"><a href="../../dc/d04/interface_e_i_photo_s_d_k_editor_controller.html">EIPhotoSDKEditorController</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d4c/_e_i_photo_s_d_k_editor_controller_8h_source.html#l00041">EIPhotoSDKEditorController.h:41</a></div></div>
 <div class="ttc" id="_e_i_photo_s_d_k_context_8h_html"><div class="ttname"><a href="../../d7/deb/_e_i_photo_s_d_k_context_8h.html">EIPhotoSDKContext.h</a></div></div>
@@ -156,7 +162,7 @@ $(document).ready(function(){initNavTree('d6/d43/_e_i_photo_s_d_k_8h_source.html
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_692516b589a32b3bfce781ca9f6d1534.html">Headers</a></li><li class="navelem"><a class="el" href="../../d6/d43/_e_i_photo_s_d_k_8h.html">EIPhotoSDK.h</a></li>
-    <li class="footer">Generated on Wed Apr 9 2014 16:09:30 for FotorSDK by
+    <li class="footer">Generated on Wed May 28 2014 16:33:22 for FotorSDK by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

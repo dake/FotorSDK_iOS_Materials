@@ -31,7 +31,7 @@
   <td id="projectlogo"><img alt="Logo" src="../../icon-80.png"/></td>
   <td style="padding-left: 0.5em;">
    <div id="projectname">FotorSDK
-   &#160;<span id="projectnumber">beta</span>
+   &#160;<span id="projectnumber">v1.0.0</span>
    </div>
    <div id="projectbrief">Objective-C API for iOS</div>
   </td>
@@ -130,10 +130,10 @@ Inheritance diagram for EIPhotoSDKSession:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Instance Methods</h2></td></tr>
-<tr class="memitem:af595d4a15054e961cb5589a4cd700a66"><td class="memItemLeft" align="right" valign="top">(<a class="el" href="../../de/ddd/interface_e_i_photo_s_d_k_context.html">EIPhotoSDKContext</a> *)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="../../d0/d47/interface_e_i_photo_s_d_k_session.html#af595d4a15054e961cb5589a4cd700a66">createContextWithImage:</a></td></tr>
-<tr class="separator:af595d4a15054e961cb5589a4cd700a66"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9fb11f9b6548ec51d38223c6892a8482"><td class="memItemLeft" align="right" valign="top">(<a class="el" href="../../de/ddd/interface_e_i_photo_s_d_k_context.html">EIPhotoSDKContext</a> *)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="../../d0/d47/interface_e_i_photo_s_d_k_session.html#a9fb11f9b6548ec51d38223c6892a8482">createContextWithImage:maxPixelSize:</a></td></tr>
-<tr class="separator:a9fb11f9b6548ec51d38223c6892a8482"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a69d85719b2ca2a12764c37fb74f97508"><td class="memItemLeft" align="right" valign="top">(<a class="el" href="../../de/ddd/interface_e_i_photo_s_d_k_context.html">EIPhotoSDKContext</a> *)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="../../d0/d47/interface_e_i_photo_s_d_k_session.html#a69d85719b2ca2a12764c37fb74f97508">createContextWithImage:error:</a></td></tr>
+<tr class="separator:a69d85719b2ca2a12764c37fb74f97508"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af08e0fd7e5cbd182e63a0e6c117b4ee8"><td class="memItemLeft" align="right" valign="top">(<a class="el" href="../../de/ddd/interface_e_i_photo_s_d_k_context.html">EIPhotoSDKContext</a> *)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="../../d0/d47/interface_e_i_photo_s_d_k_session.html#af08e0fd7e5cbd182e63a0e6c117b4ee8">createContextWithImage:maxPixelSize:error:</a></td></tr>
+<tr class="separator:af08e0fd7e5cbd182e63a0e6c117b4ee8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Class Methods</h2></td></tr>
@@ -155,7 +155,7 @@ Properties</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d6/d81/_e_i_photo_s_d_k_session_8h_source.html#l00025">25</a> of file <a class="el" href="../../d6/d81/_e_i_photo_s_d_k_session_8h_source.html">EIPhotoSDKSession.h</a>.</p>
 </div><h2 class="groupheader">Method Documentation</h2>
-<a class="anchor" id="af595d4a15054e961cb5589a4cd700a66"></a>
+<a class="anchor" id="a69d85719b2ca2a12764c37fb74f97508"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -163,8 +163,18 @@ Properties</h2></td></tr>
           <td class="memname">- (<a class="el" href="../../de/ddd/interface_e_i_photo_s_d_k_context.html">EIPhotoSDKContext</a> *) createContextWithImage: </td>
           <td></td>
           <td class="paramtype">(UIImage *)&#160;</td>
-          <td class="paramname"><em>NS_RETURNS_RETAINED</em></td>
+          <td class="paramname"><em>image</em></td>
+        </tr>
+        <tr>
+          <td class="paramkey">error:</td>
           <td></td>
+          <td class="paramtype">(NSError **)&#160;</td>
+          <td class="paramname"><em>NS_RETURNS_RETAINED</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -181,12 +191,12 @@ Properties</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a9fb11f9b6548ec51d38223c6892a8482"></a>
+<a class="anchor" id="af08e0fd7e5cbd182e63a0e6c117b4ee8"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">- (<a class="el" href="../../de/ddd/interface_e_i_photo_s_d_k_context.html">EIPhotoSDKContext</a> *) <a class="el" href="../../d0/d47/interface_e_i_photo_s_d_k_session.html#af595d4a15054e961cb5589a4cd700a66">createContextWithImage:</a> </td>
+          <td class="memname">- (<a class="el" href="../../de/ddd/interface_e_i_photo_s_d_k_context.html">EIPhotoSDKContext</a> *) createContextWithImage: </td>
           <td></td>
           <td class="paramtype">(UIImage *)&#160;</td>
           <td class="paramname"><em>image</em></td>
@@ -195,6 +205,12 @@ Properties</h2></td></tr>
           <td class="paramkey">maxPixelSize:</td>
           <td></td>
           <td class="paramtype">(CGFloat)&#160;</td>
+          <td class="paramname"><em>size</em></td>
+        </tr>
+        <tr>
+          <td class="paramkey">error:</td>
+          <td></td>
+          <td class="paramtype">(NSError **)&#160;</td>
           <td class="paramname"><em>NS_RETURNS_RETAINED</em>&#160;</td>
         </tr>
         <tr>
@@ -317,7 +333,7 @@ Properties</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d0/d47/interface_e_i_photo_s_d_k_session.html">EIPhotoSDKSession</a></li>
-    <li class="footer">Generated on Wed Apr 9 2014 16:09:30 for FotorSDK by
+    <li class="footer">Generated on Wed May 28 2014 16:33:22 for FotorSDK by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>
